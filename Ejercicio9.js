@@ -1,0 +1,11 @@
+var numeros = [7,9,87,42];
+
+function even(num){
+    return num %2 === 0
+}
+
+function rechazar (n,array){
+    return array.filter(num => n (num))
+}
+
+console.log(rechazar(even,(numeros)))
